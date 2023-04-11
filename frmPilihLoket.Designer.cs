@@ -79,9 +79,11 @@
             this.Controls.Add(this.BtnAnalis);
             this.Controls.Add(this.BtnKasir);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Location = new System.Drawing.Point(1200, 450);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmPilihLoket";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Pilih Loket";
             this.ResumeLayout(false);
 

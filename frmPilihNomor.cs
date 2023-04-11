@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AntrianCaller
 {
-    public partial class Form1 : Form
+    public partial class frmPilihNomor : Form
     {
-        public Form1()
+        public frmPilihNomor()
         {
             InitializeComponent();
         }

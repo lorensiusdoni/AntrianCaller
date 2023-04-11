@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmCaller.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmCaller.Designer.cs">
+      <DependentUpon>frmCaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPilihNomor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPilihNomor.Designer.cs">
+      <DependentUpon>frmPilihNomor.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPilihLoket.cs">
       <SubType>Form</SubType>
@@ -66,8 +72,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmCaller.resx">
+      <DependentUpon>frmCaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPilihNomor.resx">
+      <DependentUpon>frmPilihNomor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPilihLoket.resx">
       <DependentUpon>frmPilihLoket.cs</DependentUpon>

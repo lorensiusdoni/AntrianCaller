@@ -1,6 +1,6 @@
 ﻿namespace AntrianCaller
 {
-    partial class Form1
+    partial class frmPilihNomor
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPilihNomor));
             this.BtnLoketSatu = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.BtnLoketTiga = new System.Windows.Forms.Button();
@@ -70,7 +70,7 @@
             this.BtnLoketTiga.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnLoketTiga.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // frmPilihNomor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -79,9 +79,11 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.BtnLoketSatu);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Location = new System.Drawing.Point(1200, 450);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "frmPilihNomor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Pilih Nomor Loket";
             this.ResumeLayout(false);
 
