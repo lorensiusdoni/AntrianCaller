@@ -16,5 +16,10 @@ namespace AntrianCaller
         {
             InitializeComponent();
         }
+
+        private void FrmCaller_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

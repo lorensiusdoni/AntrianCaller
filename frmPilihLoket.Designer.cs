@@ -45,6 +45,7 @@
             this.button1.Text = "CS";
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // BtnAnalis
             // 
@@ -57,6 +58,7 @@
             this.BtnAnalis.Text = "Analis";
             this.BtnAnalis.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnAnalis.UseVisualStyleBackColor = true;
+            this.BtnAnalis.Click += new System.EventHandler(this.BtnAnalis_Click);
             // 
             // BtnKasir
             // 
@@ -69,6 +71,7 @@
             this.BtnKasir.Text = "Kasir";
             this.BtnKasir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnKasir.UseVisualStyleBackColor = true;
+            this.BtnKasir.Click += new System.EventHandler(this.BtnKasir_Click);
             // 
             // FrmPilihLoket
             // 
@@ -85,6 +88,8 @@
             this.Name = "FrmPilihLoket";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Pilih Loket";
+            this.TopMost = true;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPilihLoket_FormClosing);
             this.ResumeLayout(false);
 
         }

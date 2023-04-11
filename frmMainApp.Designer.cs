@@ -34,6 +34,7 @@
             // 
             // BtnStart
             // 
+            this.BtnStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnStart.Image = ((System.Drawing.Image)(resources.GetObject("BtnStart.Image")));
             this.BtnStart.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.BtnStart.Location = new System.Drawing.Point(151, 141);
@@ -43,6 +44,7 @@
             this.BtnStart.Text = "MULAI";
             this.BtnStart.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnStart.UseVisualStyleBackColor = true;
+            this.BtnStart.Click += new System.EventHandler(this.BtnStart_Click);
             // 
             // FrmMainApp
             // 
