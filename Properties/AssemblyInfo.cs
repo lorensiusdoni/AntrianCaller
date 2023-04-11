@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AntrianCaller")]
+[assembly: AssemblyTitle("Antrian Caller")]
 [assembly: AssemblyDescription("Aplikasi Pemanggil Antrian V 1.0.0")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("FMbp")]
-[assembly: AssemblyProduct("AntrianCaller")]
+[assembly: AssemblyProduct("Antrian Caller")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("bogeng")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
