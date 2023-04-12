@@ -45,5 +45,13 @@ namespace AntrianCaller
         {
             Application.Exit();
         }
+
+        private void FrmPilihNomor_Activated(object sender, EventArgs e)
+        {
+            var namaLoket = Properties.Settings.Default.NamaLoket;
+
+            this.Text = "Loket : " + namaLoket + " > Pilih Nomor Loket";
+            this.Update();
+        }
     }
 }

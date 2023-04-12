@@ -21,5 +21,14 @@ namespace AntrianCaller
         {
             Application.Exit();
         }
+
+        private void FrmCaller_Activated(object sender, EventArgs e)
+        {
+            var namaLoket = Properties.Settings.Default.NamaLoket;
+            var nomorLoket = Properties.Settings.Default.NomorLoket;
+
+            this.Text = "Loket : " + namaLoket + " - Nomor : " + nomorLoket;
+            this.Update();
+        }
     }
 }

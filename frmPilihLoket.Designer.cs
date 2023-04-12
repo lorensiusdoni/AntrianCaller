@@ -29,23 +29,23 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPilihLoket));
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnCustomerService = new System.Windows.Forms.Button();
             this.BtnAnalis = new System.Windows.Forms.Button();
             this.BtnKasir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // BtnCustomerService
             // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(269, 146);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(80, 60);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "CS";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BtnCustomerService.Image = ((System.Drawing.Image)(resources.GetObject("BtnCustomerService.Image")));
+            this.BtnCustomerService.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnCustomerService.Location = new System.Drawing.Point(269, 146);
+            this.BtnCustomerService.Name = "BtnCustomerService";
+            this.BtnCustomerService.Size = new System.Drawing.Size(80, 60);
+            this.BtnCustomerService.TabIndex = 5;
+            this.BtnCustomerService.Text = "CS";
+            this.BtnCustomerService.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnCustomerService.UseVisualStyleBackColor = true;
+            this.BtnCustomerService.Click += new System.EventHandler(this.BtnCustomerService_Click);
             // 
             // BtnAnalis
             // 
@@ -78,7 +78,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(382, 353);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BtnCustomerService);
             this.Controls.Add(this.BtnAnalis);
             this.Controls.Add(this.BtnKasir);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -96,7 +96,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnCustomerService;
         private System.Windows.Forms.Button BtnAnalis;
         private System.Windows.Forms.Button BtnKasir;
     }

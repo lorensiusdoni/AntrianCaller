@@ -33,7 +33,7 @@ namespace AntrianCaller
             frmPilihNomor.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BtnCustomerService_Click(object sender, EventArgs e)
         {
             Properties.Settings.Default.NamaLoket = "CS";
             Properties.Settings.Default.Save();

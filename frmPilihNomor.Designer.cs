@@ -89,6 +89,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Pilih Nomor Loket";
             this.TopMost = true;
+            this.Activated += new System.EventHandler(this.FrmPilihNomor_Activated);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPilihNomor_FormClosing);
             this.ResumeLayout(false);
 

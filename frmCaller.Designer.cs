@@ -32,13 +32,14 @@
             this.GBInfo = new System.Windows.Forms.GroupBox();
             this.BtnPanggilBaru = new System.Windows.Forms.Button();
             this.BtnPanggilUlang = new System.Windows.Forms.Button();
+            this.GBSisaAntrian = new System.Windows.Forms.GroupBox();
             this.SuspendLayout();
             // 
             // GBInfo
             // 
             this.GBInfo.Location = new System.Drawing.Point(25, 13);
             this.GBInfo.Name = "GBInfo";
-            this.GBInfo.Size = new System.Drawing.Size(345, 244);
+            this.GBInfo.Size = new System.Drawing.Size(345, 164);
             this.GBInfo.TabIndex = 0;
             this.GBInfo.TabStop = false;
             this.GBInfo.Text = "INFO";
@@ -69,11 +70,21 @@
             this.BtnPanggilUlang.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnPanggilUlang.UseVisualStyleBackColor = true;
             // 
+            // GBSisaAntrian
+            // 
+            this.GBSisaAntrian.Location = new System.Drawing.Point(25, 183);
+            this.GBSisaAntrian.Name = "GBSisaAntrian";
+            this.GBSisaAntrian.Size = new System.Drawing.Size(345, 74);
+            this.GBSisaAntrian.TabIndex = 3;
+            this.GBSisaAntrian.TabStop = false;
+            this.GBSisaAntrian.Text = "SISA ANTRIAN";
+            // 
             // FrmCaller
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(382, 353);
+            this.Controls.Add(this.GBSisaAntrian);
             this.Controls.Add(this.BtnPanggilBaru);
             this.Controls.Add(this.BtnPanggilUlang);
             this.Controls.Add(this.GBInfo);
@@ -85,6 +96,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Antrian App";
             this.TopMost = true;
+            this.Activated += new System.EventHandler(this.FrmCaller_Activated);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmCaller_FormClosing);
             this.ResumeLayout(false);
 
@@ -95,5 +107,6 @@
         private System.Windows.Forms.GroupBox GBInfo;
         private System.Windows.Forms.Button BtnPanggilBaru;
         private System.Windows.Forms.Button BtnPanggilUlang;
+        private System.Windows.Forms.GroupBox GBSisaAntrian;
     }
 }
